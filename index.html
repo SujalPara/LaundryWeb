@@ -10,16 +10,22 @@
         }
         .brand{
             float: right;
-        }
-        .logo{
-            width: 20px;
-            height:20px;
-            border-radius: 50%;
-            
+            padding-right: 10px;
         }
         .top{
             overflow: hidden;
             background-color: #333;
+        }
+        #logo img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 0px;
+            margin: 0px;
+        }
+        #logo{
+            padding: 0px;
+            margin: 0px;
         }
 
         .top a{
@@ -33,7 +39,7 @@
 
         .top a:hover{
             background-color: #ddd;
-            color:black
+            color:black;
         }
     </style>
 </head>
@@ -43,7 +49,7 @@
         <a>About</a>
         <a>Dashboard</a>
         <div class="brand">
-            <button class="logo"><img src="images/Laundry-Logo.jpg"></button>
+            <a id="logo"><img src="images/Laundry-Logo.jpg"></a>
         </div>
         
     </nav>
